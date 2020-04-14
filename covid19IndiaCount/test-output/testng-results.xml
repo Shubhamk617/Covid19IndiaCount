@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[8 MINUTES AGO]]>
+    </line>
+    <line>
+      <![CDATA[12 APR, 18:51 IST]]>
+    </line>
+    <line>
+      <![CDATA[<Html><Body><p><font color="red">Method Driver.ProgramDriverCovid19_covid19IndiaCount   FAILED <a href="file:///C:/Users/shukumar5/Desktop/WorkSpace/covid19IndiaCount/SnapShots/Driver.ProgramDriverCovid19_covid19IndiaCount12-04-2020_07_06_18.jpg" >SnapShot</a></p></Body></Html>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-04-12T18:59:12 IST" name="Suite" finished-at="2020-04-12T19:06:20 IST" duration-ms="427518">
+    <groups>
+    </groups>
+    <test started-at="2020-04-12T18:59:12 IST" name="Test" finished-at="2020-04-12T19:06:20 IST" duration-ms="427518">
+      <class name="Driver.ProgramDriverCovid19">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T18:59:12 IST" name="beforeSuite" finished-at="2020-04-12T18:59:12 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T18:59:12 IST" name="openChrome" finished-at="2020-04-12T18:59:22 IST" duration-ms="10182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T18:59:22 IST" name="beforeMethod" finished-at="2020-04-12T18:59:22 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Driver.ProgramDriverCovid19.covid19IndiaCount() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="covid19IndiaCount()[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T18:59:22 IST" name="covid19IndiaCount" finished-at="2020-04-12T19:06:18 IST" duration-ms="415354" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 516 out of bounds for length 516]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 516 out of bounds for length 516
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+at java.base/java.util.Objects.checkIndex(Objects.java:373)
+at java.base/java.util.ArrayList.get(ArrayList.java:425)
+at Driver.ProgramDriverCovid19.covid19IndiaCount(ProgramDriverCovid19.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+            <line>
+              <![CDATA[8 MINUTES AGO]]>
+            </line>
+            <line>
+              <![CDATA[12 APR, 18:51 IST]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- covid19IndiaCount -->
+        <test-method is-config="true" signature="PublishSnapShots(org.testng.ITestResult)[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T19:06:18 IST" name="PublishSnapShots" finished-at="2020-04-12T19:06:19 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=covid19IndiaCount status=FAILURE method=ProgramDriverCovid19.covid19IndiaCount()[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a] output=8 MINUTES AGO]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<Html><Body><p><font color="red">Method Driver.ProgramDriverCovid19_covid19IndiaCount   FAILED <a href="file:///C:/Users/shukumar5/Desktop/WorkSpace/covid19IndiaCount/SnapShots/Driver.ProgramDriverCovid19_covid19IndiaCount12-04-2020_07_06_18.jpg" >SnapShot</a></p></Body></Html>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PublishSnapShots -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:Driver.ProgramDriverCovid19@419c5f1a]" started-at="2020-04-12T19:06:19 IST" name="closeChrome" finished-at="2020-04-12T19:06:20 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- Driver.ProgramDriverCovid19 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
